@@ -20,8 +20,6 @@
 @interface ViewController ()<XHBabyBluetoothManagerDelegate,UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong) XHBabyBluetoothManager *babyMgr;
-
-
 @property (nonatomic, strong) NSMutableDictionary *keyCodeDictionary;
 
 
