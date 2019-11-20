@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2C14381425A8AB3ABBC318 /* Pods_XHBabaybluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25DB4E806DB5D29CE17E85 /* Pods_XHBabaybluetooth.framework */; };
 		85CB697523851812003384F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB697423851812003384F8 /* AppDelegate.m */; };
 		85CB697823851812003384F8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB697723851812003384F8 /* SceneDelegate.m */; };
 		85CB697B23851812003384F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB697A23851812003384F8 /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		85CB69802385181A003384F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CB697F2385181A003384F8 /* Assets.xcassets */; };
 		85CB69832385181A003384F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CB69812385181A003384F8 /* LaunchScreen.storyboard */; };
 		85CB69862385181A003384F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB69852385181A003384F8 /* main.m */; };
+		85CB69902385197E003384F8 /* XHPeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB698F2385197E003384F8 /* XHPeripheralInfo.m */; };
+		85CB69932385198D003384F8 /* XHBabyBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB69922385198D003384F8 /* XHBabyBluetoothManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53E2A90CF2A5AE4C8AE05A14 /* Pods-XHBabaybluetooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBabaybluetooth.release.xcconfig"; path = "Target Support Files/Pods-XHBabaybluetooth/Pods-XHBabaybluetooth.release.xcconfig"; sourceTree = "<group>"; };
 		85CB697023851812003384F8 /* XHBabaybluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHBabaybluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CB697323851812003384F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85CB697423851812003384F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,12 @@
 		85CB69822385181A003384F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85CB69842385181A003384F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85CB69852385181A003384F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85CB698E2385197E003384F8 /* XHPeripheralInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHPeripheralInfo.h; sourceTree = "<group>"; };
+		85CB698F2385197E003384F8 /* XHPeripheralInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHPeripheralInfo.m; sourceTree = "<group>"; };
+		85CB69912385198D003384F8 /* XHBabyBluetoothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBabyBluetoothManager.h; sourceTree = "<group>"; };
+		85CB69922385198D003384F8 /* XHBabyBluetoothManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBabyBluetoothManager.m; sourceTree = "<group>"; };
+		9959A2DF8EEFC0134434C727 /* Pods-XHBabaybluetooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBabaybluetooth.debug.xcconfig"; path = "Target Support Files/Pods-XHBabaybluetooth/Pods-XHBabaybluetooth.debug.xcconfig"; sourceTree = "<group>"; };
+		FA25DB4E806DB5D29CE17E85 /* Pods_XHBabaybluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHBabaybluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2C14381425A8AB3ABBC318 /* Pods_XHBabaybluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +58,8 @@
 			children = (
 				85CB697223851812003384F8 /* XHBabaybluetooth */,
 				85CB697123851812003384F8 /* Products */,
+				A420D18A2DE7A9DDC292E4D4 /* Pods */,
+				9C2E91CC77B2A6EA1776FF3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +74,7 @@
 		85CB697223851812003384F8 /* XHBabaybluetooth */ = {
 			isa = PBXGroup;
 			children = (
+				85CB698C2385195C003384F8 /* XHBLE */,
 				85CB697323851812003384F8 /* AppDelegate.h */,
 				85CB697423851812003384F8 /* AppDelegate.m */,
 				85CB697623851812003384F8 /* SceneDelegate.h */,
@@ -76,6 +90,42 @@
 			path = XHBabaybluetooth;
 			sourceTree = "<group>";
 		};
+		85CB698C2385195C003384F8 /* XHBLE */ = {
+			isa = PBXGroup;
+			children = (
+				85CB698D23851965003384F8 /* Model */,
+				85CB69912385198D003384F8 /* XHBabyBluetoothManager.h */,
+				85CB69922385198D003384F8 /* XHBabyBluetoothManager.m */,
+			);
+			path = XHBLE;
+			sourceTree = "<group>";
+		};
+		85CB698D23851965003384F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85CB698E2385197E003384F8 /* XHPeripheralInfo.h */,
+				85CB698F2385197E003384F8 /* XHPeripheralInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C2E91CC77B2A6EA1776FF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA25DB4E806DB5D29CE17E85 /* Pods_XHBabaybluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A420D18A2DE7A9DDC292E4D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9959A2DF8EEFC0134434C727 /* Pods-XHBabaybluetooth.debug.xcconfig */,
+				53E2A90CF2A5AE4C8AE05A14 /* Pods-XHBabaybluetooth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85CB69892385181A003384F8 /* Build configuration list for PBXNativeTarget "XHBabaybluetooth" */;
 			buildPhases = (
+				E29404F33438398DF684DEFC /* [CP] Check Pods Manifest.lock */,
 				85CB696C23851812003384F8 /* Sources */,
 				85CB696D23851812003384F8 /* Frameworks */,
 				85CB696E23851812003384F8 /* Resources */,
+				99EF1B8D813907B6E78E8CE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +193,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99EF1B8D813907B6E78E8CE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XHBabaybluetooth/Pods-XHBabaybluetooth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XHBabaybluetooth/Pods-XHBabaybluetooth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XHBabaybluetooth/Pods-XHBabaybluetooth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29404F33438398DF684DEFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XHBabaybluetooth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85CB696C23851812003384F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CB69932385198D003384F8 /* XHBabyBluetoothManager.m in Sources */,
 				85CB697B23851812003384F8 /* ViewController.m in Sources */,
 				85CB697523851812003384F8 /* AppDelegate.m in Sources */,
 				85CB69862385181A003384F8 /* main.m in Sources */,
 				85CB697823851812003384F8 /* SceneDelegate.m in Sources */,
+				85CB69902385197E003384F8 /* XHPeripheralInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +383,7 @@
 		};
 		85CB698A2385181A003384F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9959A2DF8EEFC0134434C727 /* Pods-XHBabaybluetooth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +401,7 @@
 		};
 		85CB698B2385181A003384F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E2A90CF2A5AE4C8AE05A14 /* Pods-XHBabaybluetooth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
